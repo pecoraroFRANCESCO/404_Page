@@ -1,0 +1,43 @@
+body{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	background-color: white;
+}
+
+.img{
+	background-size: cover;
+	position: absolute;
+}
+
+.img2{
+	position: absolute;
+	top: 50px;
+}
+
+.img3{
+	position: absolute;
+	top: 235px;
+}
+.bouton{
+	display: flex;
+	justify-content: center;
+	margin-top: 330px;
+	z-index: 1;
+}
+.bouton a {
+	display:block;
+	width:150px;
+	line-height:50px;
+	text-align:center;
+	vertical-align:middle;
+	background:url(../img/boutonnoir.png) no-repeat;
+	color:white;
+	text-decoration:none;
+}
+	.bouton a:hover {
+	background:url(../img/boutonnoir.png) no-repeat;
+}
+/*.bouton a:hover {
+background:url(../img/boutonsnoir.png) no-repeat;
+}
